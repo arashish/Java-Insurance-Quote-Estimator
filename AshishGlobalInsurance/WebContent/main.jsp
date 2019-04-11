@@ -6,9 +6,9 @@
 		<title>ASHISH GLOBAL INSURANCE</title>
 		<style>
 			#tit {color:White; border-style:solid; text-align:center; background: #ff0000; vertical-align:middle; opacity:0.8; font-size: 24px;}	 /* used for the table title */
-			label {color:Black;font-weight:Regular;font-size:18px;text-align:right;}	 /* used to display the field names */
-			#tbox {font-size:18px;}	 /* used to set the text size inside the text box */
-			#email {font-size:18px;}  /* used to set the size of email textbox*/
+			label {color:Black;font-weight:Regular;font-size:16px;text-align:right;}	 /* used to display the field names */
+			#tbox {font-size:16px;}	 /* used to set the text size inside the text box */
+			#email {font-size:16px;}  /* used to set the size of email textbox*/
 			.button {	 
 			  background-color: #ff0000;
 			  border: none;
@@ -88,10 +88,10 @@
 		<br><br>
 						
 		<div align="center">	<!-- Aligns the table in the middle of the screen -->
-			<h1>Let us help you calculate your 	
+			<h2>Let us help you calculate your 	
 				<%= request.getParameter("insuranceType")%> 
 				insurance cost!
-			</h1>
+			</h2>
 			<form name="formhtml" action="temp" onsubmit="return myFunction()" method="post">	<!-- This form will let the user enter their information and pas the values to Servlet AshishServlet1.java where temp is the url/shortcut mapping to the servlet-->
 				<table bgcolor="#D3D3D3">
 					<col width="150">
